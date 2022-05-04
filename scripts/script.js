@@ -15,7 +15,7 @@ let intervalo = 0;
 /* Repete o  prompt enquanto o número de cartas estiver fora do parâmetro */
 function obterNumeroCartas() {
   while(!numeroCartas()) {
-    qtdCartas = Number(prompt(`Insira a quantidade de cartas (${MIN_CARTAS} a ${MAX_CARTAS})`))
+    qtdCartas = Number(prompt(`Insira a quantidade de cartas (Min:${MIN_CARTAS} e Max:${MAX_CARTAS})`))
   }
 }
  
